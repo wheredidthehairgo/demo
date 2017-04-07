@@ -1,0 +1,28 @@
+@charset "UTF-8";
+html，body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 50%; }
+  .container .num-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px; }
+    .container .num-box .num {
+      flex: 1;
+      background: url("../img/num1.png") top center repeat-y;
+      width: 60px;
+      height: 100px; }
+  .container .btn {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    line-height: 1.5; }
